@@ -1,0 +1,1346 @@
+[
+  {
+    "params": {
+      "Topic": "/simulator/control/canbus"
+    },
+    "name": "CAN Bus Sensor",
+    "parent": null,
+    "pluginId": "b0bdc474-ac09-4355-901d-d7012a8c57a8",
+    "sortKey": 0,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "b0bdc474-ac09-4355-901d-d7012a8c57a8",
+      "name": "CAN Bus Sensor",
+      "type": "CanBusSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor sends data about the vehicle chassis. The data includes:\n\t* Speed [m/s]\n\t* Throttle [%]\n\t* Braking [%]\n\t* Steering [+/- %]\n\t* Parking Brake Status [bool]\n\t* High Beam Status [bool]\n\t* Low Beam Status [bool]\n\t* Hazard Light Status [bool]\n\t* Fog Light Status [bool]\n\t* Left Turn Signal Status [bool]\n\t* Right Turn Signal Status [bool]\n\t* Wiper Status [bool]\n\t* Reverse Gear Status [bool]\n\t* Selected Gear [Int]\n\t* Engine Status [bool]\n\t* Engine RPM [RPM]\n\t* GPS Latitude [Latitude]\n\t* GPS Longitude [Longitude]\n\t* Altitude [m]\n\t* Orientation [3D Vector of Euler angles]\n\t* Velocity [3D Vector of m/s]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#can-bus for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/444f9f63-7e0e-474d-9cf4-9a6fc8813c7b",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/camera",
+      "Frequency": 30
+    },
+    "transform": {
+      "x": 0,
+      "y": 1.348,
+      "z": 1.219,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Color Camera Sensor",
+    "parent": null,
+    "pluginId": "3d4f1e08-4c62-4e9f-b859-b26d4910b85e",
+    "sortKey": 1,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "3d4f1e08-4c62-4e9f-b859-b26d4910b85e",
+      "name": "Color Camera Sensor",
+      "type": "ColorCameraSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This is the type of sensor that would be used for the Main Camera in Apollo.\nColor Camera also has multiple post processing sensor effects that can be added to the Postprocessing field in params. Effects can be combined with an array of Postprocessing fields but order is hard coded.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#color-camera for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/f9073a10-2920-4ba8-863c-93faa7c6496a",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/segmentation_camera"
+    },
+    "transform": {
+      "x": 0,
+      "y": 1.348,
+      "z": 1.219,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Segmentation Camera Sensor",
+    "parent": null,
+    "pluginId": "dbd171ab-66bc-4c7a-a523-d4e72afe1d0f",
+    "sortKey": 2,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "dbd171ab-66bc-4c7a-a523-d4e72afe1d0f",
+      "name": "Segmentation Camera Sensor",
+      "type": "SegmentationCameraSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor returns an image where objects are colored corresponding to their tag. Example of Instance Segmentation Tags. Be aware that this effects performance greatly.\n\t\"InstanceSegmentationTags\": [\n\t\t\"Car\",\n\t\t\"Pedestrian\",\n\t\t\"Obstacle\",\n\t\t\"Building\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#segmentation-camera for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/37402ea8-7073-40dd-983f-3aaf855421c1",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/radar",
+      "Frequency": 15
+    },
+    "transform": {
+      "x": 0,
+      "y": 0.337,
+      "z": 3.691,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Radar Sensor",
+    "parent": null,
+    "pluginId": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+    "sortKey": 3,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+      "name": "Radar Sensor",
+      "type": "RadarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the objects detected by the radar. Detected objects are visualized with a box colored by their type:\n\t[\n\t\t\"Car\": \"Green\"\n\t\t\"Bicycle\": \"Cyan\"\n\t\t\"Agent\": \"Magenta\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#radar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/7404a9f8-4ac2-42da-b416-10fb211d24a9",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/frontright1",
+      "MaxDistance": 200,
+      "MinDistance": 0.1
+    },
+    "transform": {
+      "x": 0.35,
+      "y": 0.337,
+      "z": 3.691,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Front Right 1",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 4,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/backright1",
+      "MinDistance": 0.1,
+      "MaxDistance": 200
+    },
+    "transform": {
+      "x": 0.32995423546131375,
+      "y": 0.337,
+      "z": -1,
+      "pitch": 0,
+      "yaw": 180,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Back Right 1",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 5,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/frontright2",
+      "MinDistance": 0.1,
+      "MaxDistance": 200
+    },
+    "transform": {
+      "x": 0.7,
+      "y": 0.337,
+      "z": 3.5,
+      "pitch": 0,
+      "yaw": 45,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Front Right 2",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 6,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/backright2",
+      "MinDistance": 0.1,
+      "MaxDistance": 200
+    },
+    "transform": {
+      "x": 0.7,
+      "y": 0.337,
+      "z": -0.9,
+      "pitch": 0,
+      "yaw": -225,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Back Right 2",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 7,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/frontright3",
+      "MinDistance": 0.1,
+      "MaxDistance": 200
+    },
+    "transform": {
+      "x": 1.05,
+      "y": 0.337,
+      "z": 3.3,
+      "pitch": 0,
+      "yaw": 90,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Front Right 3",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 8,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/backright3",
+      "MinDistance": 0.1,
+      "MaxDistance": 200,
+      "Width": 400
+    },
+    "transform": {
+      "x": 1.05,
+      "y": 0.337,
+      "z": -0.8,
+      "pitch": 0,
+      "yaw": -270,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Back Right 3",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 9,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/frontleft1",
+      "MinDistance": 0.1,
+      "MaxDistance": 200
+    },
+    "transform": {
+      "x": -0.35,
+      "y": 0.337,
+      "z": 3.691,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Front Left 1",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 10,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/backleft2",
+      "MaxDistance": 200,
+      "MinDistance": 0.1
+    },
+    "transform": {
+      "x": -0.35,
+      "y": 0.337,
+      "z": -1,
+      "pitch": 0,
+      "yaw": 180,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Back Left 1",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 11,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/frontleft2",
+      "MaxDistance": 200,
+      "MinDistance": 0.1
+    },
+    "transform": {
+      "x": -0.7,
+      "y": 0.337,
+      "z": -0.9,
+      "pitch": 0,
+      "yaw": 225,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Front Left 2",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 12,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/backleft2",
+      "MaxDistance": 200,
+      "MinDistance": 0.1
+    },
+    "transform": {
+      "x": -0.7,
+      "y": 0.337,
+      "z": 3.5,
+      "pitch": 0,
+      "yaw": -45,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Back Left 2",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 13,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/frontleft3",
+      "MaxDistance": 200,
+      "MinDistance": 0.1
+    },
+    "transform": {
+      "x": -1.05,
+      "y": 0.337,
+      "z": 3.3,
+      "pitch": 0,
+      "yaw": -90,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Front Left 3",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 14,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ultrasonic/backleft3",
+      "MaxDistance": 200,
+      "MinDistance": 0.1
+    },
+    "transform": {
+      "x": -1.05,
+      "y": 0.337,
+      "z": -0.8,
+      "pitch": 0,
+      "yaw": 270,
+      "roll": 0
+    },
+    "name": "Ultrasonic Sensor Back Left 3",
+    "parent": null,
+    "pluginId": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+    "sortKey": 15,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "fb1d98b9-fb45-431a-893d-1634f760bde1",
+      "name": "Ultrasonic Sensor",
+      "type": "UltrasonicSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the distance (to the center of the sensor) of the closest point within the sensor's FOV.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#ultrasonic for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/3832048b-63e9-4ed8-b2fa-6a6f3377b1b4",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/control/vehicle_state"
+    },
+    "name": "Vehicle State Sensor",
+    "parent": null,
+    "pluginId": "8aff00f2-a5e4-4bd3-a778-517f9307fa99",
+    "sortKey": 16,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "8aff00f2-a5e4-4bd3-a778-517f9307fa99",
+      "name": "Vehicle State Sensor",
+      "type": "VehicleStateSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "Example of a sensor to get state of different parts of vehicle.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/4e098c4c-8294-4714-88f2-7b790951381a",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/control/vehicle_control"
+    },
+    "name": "LGSVL Control Sensor",
+    "parent": null,
+    "pluginId": "a5696615-d3e2-45e9-afa3-9b5ae7359e02",
+    "sortKey": 17,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "a5696615-d3e2-45e9-afa3-9b5ae7359e02",
+      "name": "LGSVL Control Sensor",
+      "type": "LGSVLControlSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "Example template of a sensor for vehicle Control information.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/02e462ce-c1ad-448d-9c24-df8a05a7c09a",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "name": "Keyboard Control Sensor",
+    "parent": null,
+    "pluginId": "a2ff904a-ff06-4f06-9e45-cb58217a7142",
+    "sortKey": 18,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "a2ff904a-ff06-4f06-9e45-cb58217a7142",
+      "name": "Keyboard Control Sensor",
+      "type": "KeyboardControlSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor is required for a vehicle to accept keyboard control commands. Parameters are not required.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#keyboard-control for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/7d0e8f41-8f38-4b0f-9e36-1ab6540ea6df",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/gps"
+    },
+    "name": "GPS Device Sensor",
+    "parent": null,
+    "pluginId": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+    "sortKey": 19,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+      "name": "GPS Device Sensor",
+      "type": "GpsSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-device for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/f73de137-d067-47db-9fb7-242aae49b2ad",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/gps_odometry"
+    },
+    "name": "GPS Odometry Sensor",
+    "parent": null,
+    "pluginId": "483f7b90-2f76-42ee-82c1-22f02f25f924",
+    "sortKey": 20,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "483f7b90-2f76-42ee-82c1-22f02f25f924",
+      "name": "GPS Odometry Sensor",
+      "type": "GpsOdometrySensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates and the vehicle velocity.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-odometry for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/d47cccd4-a029-4c03-87ef-3a5d3c1994a0",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/imu"
+    },
+    "name": "IMU Sensor",
+    "parent": null,
+    "pluginId": "9c34ec28-627d-4e73-9bb0-9c2aa7e978f5",
+    "sortKey": 21,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "9c34ec28-627d-4e73-9bb0-9c2aa7e978f5",
+      "name": "IMU Sensor",
+      "type": "ImuSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor output at a fixed rate of 100 Hz. IMU publishes data on topics where the 2nd topic has corrected IMU data.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#imu for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/cf06a7ce-85d0-4edd-a1e1-ca11992800c2",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/vehicle_odometry"
+    },
+    "name": "Vehicle Odometry Sensor",
+    "parent": null,
+    "pluginId": "662072f8-8123-4e18-9b45-ee801e0bc020",
+    "sortKey": 22,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "662072f8-8123-4e18-9b45-ee801e0bc020",
+      "name": "Vehicle Odometry Sensor",
+      "type": "VehicleOdometrySensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "Example sensor for vehicle odometry information.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/48d73849-b580-4d95-b09b-a888b8034a4a",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  },
+  {
+    "params": {
+      "Topic": "/simulator/sensor/ground_truth_3d"
+    },
+    "name": "3D Ground Truth Sensor",
+    "parent": null,
+    "pluginId": "e3fef197-9724-48ec-b98e-c5a0892d09c4",
+    "sortKey": 23,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.2.1",
+        "2021.1",
+        "2021.1.1",
+        "!x-debug-map",
+        "Development",
+        "DevelopmentVersion"
+      ],
+      "id": "e3fef197-9724-48ec-b98e-c5a0892d09c4",
+      "name": "3D Ground Truth Sensor",
+      "type": "PerceptionSensor3D",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor returns 3D ground truth data for training and creates bounding boxes around the detected objects. The color of the object corresponds to the object's type:\n\t[\n\t\t\"Car\": \"Green\"\n\t\t\"Pedestrian\": \"Yellow\"\n\t\t\"Bicycle\": \"Cyan\"\n\t\t\"Unknown\":  \"Magenta\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#3d-ground-truth for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/23af29b0-4f5d-430f-9603-882e04d95cd3",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    }
+  }
+]

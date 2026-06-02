@@ -1,0 +1,52 @@
+version: "3"
+services:
+  # API Server
+  server:
+    container_name: sorasvl-server
+    build:
+      context: ./server
+    depends_on:
+      - mongo
+    volumes:
+      - ./server/assets:/workdir/assets
+    networks:
+      - sorasvl
+
+  # Client
+  client:
+    container_name: sorasvl-client
+    build:
+      context: ./client
+    depends_on:
+      - server
+    networks:
+      - sorasvl
+
+  # Nginx
+  nginx:
+    container_name: sorasvl-router
+    build:
+      context: ./nginx
+    depends_on:
+      - server
+      - client
+    ports:
+      - "100:80"
+    networks:
+      - sorasvl
+
+  # MongoDB
+  mongo:
+    container_name: sorasvl-mongo
+    volumes:
+      - ./mongo/data:/data/db
+    build:
+      context: ./mongo
+    ports:
+      - "28018:27017"
+    networks:
+      - sorasvl
+
+networks:
+  sorasvl:
+    driver: bridge

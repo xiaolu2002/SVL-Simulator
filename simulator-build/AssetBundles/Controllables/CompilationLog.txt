@@ -1,0 +1,2 @@
+# Starting compiling TriggerZone.dll
+/opt/unity/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5f020e1ec451b02569a634c7f9397089

@@ -1,0 +1,47 @@
+{
+    "assetGuid": "0c9405a1-a8b9-45f0-97a2-85eeafaebdb3",
+    "isShared": false,
+    "isFavored": true,
+    "isOwned": true,
+    "accessInfo": {
+        "userAccessType": "own"
+    },
+    "geoJsonUrl": "/api/v1/assets/download/geojson/0c9405a1-a8b9-45f0-97a2-85eeafaebdb3",
+    "supportedSimulatorVersions": [
+        "2021.3",
+        "!x-debug-map",
+        "Development"
+    ],
+    "id": "f0af040b-6f39-4440-a656-fe82708cd2db",
+    "name": "MyNewMap",
+    "description": "MyNewMap using custom build",
+    "copyright": "Haifeng Zhao",
+    "licenseName": "User Content",
+    "ownerId": "7e820960-edea-4d23-882d-421af35e7286",
+    "accessType": "public",
+    "imageUrl": "/api/v1/assets/download/preview/0c9405a1-a8b9-45f0-97a2-85eeafaebdb3",
+    "hdmaps": "apollo50,autoware,lanelet2,opendrive",
+    "status": "active",
+    "tags": [
+        {
+            "name": "mybuildmap",
+            "meta": {
+                "sortKey": 0
+            }
+        }
+    ],
+    "owner": {
+        "id": "7e820960-edea-4d23-882d-421af35e7286",
+        "firstName": "Haifeng",
+        "lastName": "Zhao"
+    },
+    "shareRequests": [],
+    "favoredBy": [
+        {
+            "id": "7e820960-edea-4d23-882d-421af35e7286",
+            "firstName": "Haifeng",
+            "lastName": "Zhao"
+        }
+    ],
+    "sharedWith": []
+}
